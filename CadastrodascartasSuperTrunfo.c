@@ -90,6 +90,7 @@ printf("\n------------------------\n");
     printf("População: %d Habitantes\n", _populacao);
     printf("Área: %.2f km²\n", _area);
     printf("PIB: %f Milhões\nPontos turísticos: %d\n", _pib, _turisticos);
+    
 
 return 0;
 
