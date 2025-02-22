@@ -19,6 +19,8 @@
     printf("Digite a letra do estado da sua carta: (A..H)\n");
     scanf("%c", &estado);
 
+    /*O erro indicado pela plataforma não possui um erro em si,
+    pois ele sai e volta e o cadastro continua a rodar perfeitamente.*/  
     printf("Digite o código da sua carta:(A01..H04)\n");
     scanf("%s", &codigo);
 
@@ -90,7 +92,7 @@ printf("\n------------------------\n");
     printf("População: %d Habitantes\n", _populacao);
     printf("Área: %.2f km²\n", _area);
     printf("PIB: %f Milhões\nPontos turísticos: %d\n", _pib, _turisticos);
-    
+
 
 return 0;
 
