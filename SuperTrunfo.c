@@ -9,7 +9,11 @@
         char cidade[20];
         char _cidade[20];
         float area, _area, pib, _pib;
+        float capita, densidade;
 
+
+        densidade = populacao / area;
+        capita = pib / populacao;
 
          //cadastro da primeira carta.
 
@@ -51,6 +55,8 @@
     printf("População: %d Habitantes\n", populacao);
     printf("Área: %.2f km²\n", area);
     printf("PIB: %f Milhões\nPontos turísticos: %d\n", pib, turisticos);
+    printf("Densidade Populacional: %f hab/km²\n", densidade);
+    printf("PIB per Capita: %f Reais\n", capita);
 
     printf("\n------------------------\n");
     
@@ -92,7 +98,8 @@ printf("\n------------------------\n");
     printf("População: %d Habitantes\n", _populacao);
     printf("Área: %.2f km²\n", _area);
     printf("PIB: %f Milhões\nPontos turísticos: %d\n", _pib, _turisticos);
-
+    printf("Densidade Populacional: %f hab/km²\n", densidade);
+    printf("PIB per Capita: %f Reais\n", capita);
 
 return 0;
 
