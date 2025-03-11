@@ -2,7 +2,9 @@
     int main(){
 
 
-        int populacao, _populacao, turisticos, _turisticos;
+        //informações das cartas.
+        
+        int turisticos, _turisticos;
         char estado, _estado;
         char codigo[4];
         char _codigo[4];
@@ -10,7 +12,8 @@
         char _cidade[20];
         float area, _area, pib, _pib;
         float capita, densidade, _capita, _densidade;
-
+        float poder;
+        unsigned int long populacao, _populacao;
 
          //cadastro da primeira carta.
 
@@ -105,6 +108,25 @@ printf("\n------------------------\n");
 
     printf("Densidade Populacional: %f hab/km²\n", _densidade);
     printf("PIB per Capita: %f Reais\n", _capita);
+
+
+
+
+
+    printf("Comparação de cartas:\n");
+
+    printf("População: Carta 1 venceu()");
+    printf("Área: Carta 1 venceu()");
+    printf("PIB: Carta 1 venceu()");
+    printf("Pontos Turísticos: Carta 1 venceu()");
+    printf("Densidade Populacional: Carta 1 venceu()");
+    printf("PIB per Capita: Carta 1 venceu()");
+    printf("Super Poder: Carta 1 venceu()");
+
+
+
+
+
 
 return 0;
 
